@@ -71,7 +71,7 @@
         "name": "web-player",
         "description": "A web-player for both ChilledChino and Kazagumo. Currently on maintenance tho, still being rewriten and not ready yet for now.",
         "public": true,
-        "avatar": "",
+        "avatar": "https://i.imgur.com/RJwFo7Z.png",
         "links": [
             {
                 "name": "Player",
