@@ -1,0 +1,94 @@
+[
+    {
+        "name": "ChilledChino",
+        "description": "A totally free multipurpose discord bot that has a lot of features such as high quality music, image generations, economy, leveling, moderation, and many more!",
+        "public": true,
+        "avatar": "https://i.imgur.com/8sg7m7o.png",
+        "links": [
+            {
+                "name": "Invite Me",
+                "link": "https://discord.com/oauth2/authorize?client_id=752105298789007472&scope=bot%20applications.commands&permissions=3501126"
+            }
+        ]
+    },
+    {
+        "name": "Laffey",
+        "description": "An open-source discord music bot using lavalink",
+        "public": true,
+        "avatar": "https://i.imgur.com/3ofAWmq.png",
+        "links": [
+            {
+                "name": "Github Repo",
+                "link": "https://github.com/Weeb-Devs/Laffey"
+            }
+        ]
+    },
+    {
+        "name": "Kazagumo",
+        "description": "A module that is using shoukaku. Has built-in queue, spotify support, and more that has been more simplified.",
+        "public": true,
+        "avatar": "https://i.imgur.com/phM4Mkq.png",
+        "links": [
+            {
+                "name": "Github Repo",
+                "link": "https://github.com/Takiyo0/Kazagumo"
+            },
+            {
+                "name": "NPM",
+                "link": "https://www.npmjs.com/package/kazagumo"
+            },
+            {
+                "name": "Discord Bot Invite",
+                "link": "https://discord.com/api/oauth2/authorize?client_id=892753180855787520&permissions=7358464&scope=bot%20applications.commands"
+            }
+        ]
+    },
+    {
+        "name": "Nagato",
+        "description": "An API that handles 'all' my backends. It's also a discord bot so i can monitor my API real time.",
+        "public": true,
+        "avatar": "https://i.imgur.com/KjBz4PP.png",
+        "links": [
+            {
+                "name": "API Link",
+                "link": "https://api.chilledchino.live/"
+            }
+        ]
+    },
+    {
+        "name": "Montpelier",
+        "description": "A blog that will post some annoucements and something. It's also a music discord bot :v",
+        "public": true,
+        "avatar": "https://i.imgur.com/4hIDFja.png",
+        "links": [
+            {
+                "name": "Blog Link",
+                "link": "https://blog.chilledchino.live/"
+            }
+        ]
+    },
+    {
+        "name": "web-player",
+        "description": "A web-player for both ChilledChino and Kazagumo. Currently on maintenance tho, still being rewriten and not ready yet for now.",
+        "public": true,
+        "avatar": "",
+        "links": [
+            {
+                "name": "Player",
+                "link": "https://player.chilledchino.live/"
+            }
+        ]
+    },
+    {
+        "name": "Sirius",
+        "description": "A spotify clone that is free without ads. Not maintained for now.",
+        "public": false,
+        "avatar": "https://i.imgur.com/88BQant.png",
+        "links": [
+            {
+                "name": "Nothing",
+                "link": "https://google.com"
+            }
+        ]
+    }
+]
