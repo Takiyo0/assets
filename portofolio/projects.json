@@ -90,5 +90,17 @@
                 "link": "https://google.com"
             }
         ]
+    },
+    {
+        "name": "Tashkent",
+        "description": "A restful API for phasmophobia game. The project is paused right now.",
+        "public": false,
+        "avatar": "https://i.imgur.com/b2oFbTF.png",
+        "links": [
+            {
+                "name": "Nothing",
+                "link": "https://google.com"
+            }
+        ]
     }
 ]
