@@ -140,7 +140,7 @@
     "cooldown": 3,
     "category": "anime",
     "args": [
-      "/sauce get undefined [url:string]"
+      "/sauce get [file:attachment] [url:string]"
     ]
   },
   {
@@ -864,7 +864,7 @@
     "cooldown": 10,
     "category": "utility",
     "args": [
-      "/imgur upload undefined"
+      "/imgur upload file:attachment"
     ]
   },
   {
@@ -892,7 +892,7 @@
     "category": "utility",
     "args": [
       "/qr encode text:string",
-      "/qr decode undefined"
+      "/qr decode qr:attachment"
     ]
   },
   {
