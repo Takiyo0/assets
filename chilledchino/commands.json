@@ -59,6 +59,57 @@
     ]
   },
   {
+    "name": "bunny",
+    "description": "Send random bunny pic",
+    "cooldown": 3,
+    "category": "animal",
+    "args": []
+  },
+  {
+    "name": "cat",
+    "description": "Send random cat pic",
+    "cooldown": 3,
+    "category": "animal",
+    "args": []
+  },
+  {
+    "name": "dog",
+    "description": "Send random dog pic",
+    "cooldown": 3,
+    "category": "animal",
+    "args": []
+  },
+  {
+    "name": "fox",
+    "description": "Send random fox pic",
+    "cooldown": 3,
+    "category": "animal",
+    "args": []
+  },
+  {
+    "name": "shiba",
+    "description": "Send random shiba pic",
+    "cooldown": 3,
+    "category": "animal",
+    "args": []
+  },
+  {
+    "name": "anime",
+    "description": "Get anime related random images",
+    "cooldown": 3,
+    "category": "anime",
+    "args": [
+      "/anime hug",
+      "/anime neko",
+      "/anime nom",
+      "/anime pat",
+      "/anime poke",
+      "/anime pout",
+      "/anime smug",
+      "/anime wallpaper"
+    ]
+  },
+  {
     "name": "avatar",
     "description": "Get anime avatar image",
     "cooldown": 3,
@@ -66,60 +117,31 @@
     "args": []
   },
   {
-    "name": "hug",
-    "description": "Get anime hug image",
-    "cooldown": 3,
+    "name": "danbooru",
+    "description": "Get images from danbooru",
+    "cooldown": 4,
     "category": "anime",
-    "args": []
+    "args": [
+      "/danbooru query:string"
+    ]
   },
   {
-    "name": "neko",
-    "description": "Get anime neko image",
-    "cooldown": 3,
+    "name": "safebooru",
+    "description": "Get images from safebooru",
+    "cooldown": 4,
     "category": "anime",
-    "args": []
+    "args": [
+      "/safebooru query:string"
+    ]
   },
   {
-    "name": "nom",
-    "description": "Get anime nom image",
+    "name": "sauce",
+    "description": "Commands for anime sauce related",
     "cooldown": 3,
     "category": "anime",
-    "args": []
-  },
-  {
-    "name": "pat",
-    "description": "Get anime pat image",
-    "cooldown": 3,
-    "category": "anime",
-    "args": []
-  },
-  {
-    "name": "poke",
-    "description": "Get anime poke image",
-    "cooldown": 3,
-    "category": "anime",
-    "args": []
-  },
-  {
-    "name": "pout",
-    "description": "Get anime pout image",
-    "cooldown": 3,
-    "category": "anime",
-    "args": []
-  },
-  {
-    "name": "smug",
-    "description": "Get anime smug image",
-    "cooldown": 3,
-    "category": "anime",
-    "args": []
-  },
-  {
-    "name": "wallpaper",
-    "description": "Get anime wallpaper image",
-    "cooldown": 3,
-    "category": "anime",
-    "args": []
+    "args": [
+      "/sauce get undefined [url:string]"
+    ]
   },
   {
     "name": "automation",
@@ -128,16 +150,19 @@
     "category": "config",
     "args": [
       "/automation antiscam [set [detection:string]],[set [action:string]],[set [modlogs:channel]] [reset] [config] [instruction]",
-      "/automation autoresponse [list] [add [word:string]],[add [response:string]] [remove]"
+      "/automation autoresponse [list] [add [word:string]],[add [response:string]] [remove [word:string]]",
+      "/automation ai [enable [channel:channel]] [disable]",
+      "/automation modlogs [enable [channel:channel]] [disable]"
     ]
   },
   {
-    "name": "channel",
-    "description": "Configure channel settings",
+    "name": "config",
+    "description": "Configure bot settings",
     "cooldown": 5,
     "category": "config",
     "args": [
-      "/channel music [set]"
+      "/config leveling [enable] [channel [channel:channel]] [disable] [reset]",
+      "/config family-friendly [enable] [disable] [about]"
     ]
   },
   {
@@ -185,6 +210,182 @@
     "category": "developer",
     "args": [
       "/reload command:string"
+    ]
+  },
+  {
+    "name": "action",
+    "description": "Do economy related action",
+    "cooldown": 5,
+    "category": "economy",
+    "args": [
+      "/action beg",
+      "/action daily",
+      "/action dice",
+      "/action work",
+      "/action rob user:user",
+      "/action profile [user:user]",
+      "/action give user:user amount:number"
+    ]
+  },
+  {
+    "name": "bank",
+    "description": "Do bank things",
+    "cooldown": 4,
+    "category": "economy",
+    "args": [
+      "/bank balance [user:user]",
+      "/bank deposit amount:number",
+      "/bank withdraw amount:number"
+    ]
+  },
+  {
+    "name": "job",
+    "description": "Job list, assign, etc",
+    "cooldown": 3,
+    "category": "economy",
+    "args": [
+      "/job assign job:string",
+      "/job un-assign"
+    ]
+  },
+  {
+    "name": "store",
+    "description": "Manage store in this server",
+    "cooldown": 3,
+    "category": "economy",
+    "args": [
+      "/store list",
+      "/store add name:string price:number",
+      "/store remove name:string"
+    ]
+  },
+  {
+    "name": "8ball",
+    "description": "Ask a question to 8ball",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/8ball question:string"
+    ]
+  },
+  {
+    "name": "clap",
+    "description": "Clap",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/clap text:string"
+    ]
+  },
+  {
+    "name": "coinflip",
+    "description": "Flip a coin",
+    "cooldown": 3,
+    "category": "fun",
+    "args": []
+  },
+  {
+    "name": "emojify",
+    "description": "Convert text to emojis",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/emojify text:string"
+    ]
+  },
+  {
+    "name": "enchant",
+    "description": "Convert text to minecraft enchant language",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/enchant text:string"
+    ]
+  },
+  {
+    "name": "fact",
+    "description": "Get a fact",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/fact normal",
+      "/fact cat",
+      "/fact dog",
+      "/fact dad",
+      "/fact cn"
+    ]
+  },
+  {
+    "name": "food",
+    "description": "Get a food image",
+    "cooldown": 3,
+    "category": "fun",
+    "args": []
+  },
+  {
+    "name": "gender",
+    "description": "Get gender based on name",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/gender name:string"
+    ]
+  },
+  {
+    "name": "meme",
+    "description": "Get a meme",
+    "cooldown": 3,
+    "category": "fun",
+    "args": []
+  },
+  {
+    "name": "owo",
+    "description": "owoify text",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/owo text:string"
+    ]
+  },
+  {
+    "name": "pp",
+    "description": "hmm",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/pp [user:user]"
+    ]
+  },
+  {
+    "name": "simprate",
+    "description": "Rate your/other' simp",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/simprate [user:user]"
+    ]
+  },
+  {
+    "name": "why",
+    "description": "Get a why statement",
+    "cooldown": 3,
+    "category": "fun",
+    "args": []
+  },
+  {
+    "name": "wikihow",
+    "description": "Get a wikihow image",
+    "cooldown": 3,
+    "category": "fun",
+    "args": []
+  },
+  {
+    "name": "yodish",
+    "description": "Yodish",
+    "cooldown": 3,
+    "category": "fun",
+    "args": [
+      "/yodish text:string"
     ]
   },
   {
@@ -343,12 +544,34 @@
     ]
   },
   {
+    "name": "level",
+    "description": "Configure level",
+    "cooldown": 3,
+    "category": "leveling",
+    "args": [
+      "/level add user:user amount:number",
+      "/level remove user:user amount:number",
+      "/level set user:user amount:number"
+    ]
+  },
+  {
     "name": "rank",
     "description": "Get your current rank",
     "cooldown": 3,
     "category": "leveling",
     "args": [
       "/rank [user:user]"
+    ]
+  },
+  {
+    "name": "xp",
+    "description": "Configure xp",
+    "cooldown": 3,
+    "category": "leveling",
+    "args": [
+      "/xp add user:user amount:number",
+      "/xp remove user:user amount:number",
+      "/xp set user:user amount:number"
     ]
   },
   {
@@ -366,6 +589,15 @@
     "cooldown": 3,
     "category": "misc",
     "args": []
+  },
+  {
+    "name": "leaderboard",
+    "description": "Get leaderboard",
+    "cooldown": 3,
+    "category": "misc",
+    "args": [
+      "/leaderboard level"
+    ]
   },
   {
     "name": "stats",
@@ -588,6 +820,146 @@
     "category": "music",
     "args": [
       "/volume [value:number]"
+    ]
+  },
+  {
+    "name": "nhentai",
+    "description": "ok",
+    "cooldown": 15,
+    "category": "nsfw",
+    "args": [
+      "/nhentai read id:number",
+      "/nhentai search query:string"
+    ]
+  },
+  {
+    "name": "afk",
+    "description": "Set your afk",
+    "cooldown": 5,
+    "category": "utility",
+    "args": [
+      "/afk [reason:string]"
+    ]
+  },
+  {
+    "name": "afklist",
+    "description": "Get all afk users",
+    "cooldown": 5,
+    "category": "utility",
+    "args": []
+  },
+  {
+    "name": "binary",
+    "description": "Decode or encode binary",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/binary encode string:string",
+      "/binary decode binary:string"
+    ]
+  },
+  {
+    "name": "imgur",
+    "description": "Imgur related command",
+    "cooldown": 10,
+    "category": "utility",
+    "args": [
+      "/imgur upload undefined"
+    ]
+  },
+  {
+    "name": "lowercase",
+    "description": "Lowercase a text",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/lowercase text:string"
+    ]
+  },
+  {
+    "name": "morse",
+    "description": "Decode or encode morse",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/morse text:string"
+    ]
+  },
+  {
+    "name": "qr",
+    "description": "Encode or decode QR",
+    "cooldown": 10,
+    "category": "utility",
+    "args": [
+      "/qr encode text:string",
+      "/qr decode undefined"
+    ]
+  },
+  {
+    "name": "reverse",
+    "description": "Reverse a text",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/reverse text:string"
+    ]
+  },
+  {
+    "name": "screenshot",
+    "description": "Screenshot a website",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/screenshot url:string"
+    ]
+  },
+  {
+    "name": "selfrole",
+    "description": "Selfrole related command",
+    "cooldown": 3,
+    "category": "utility",
+    "args": []
+  },
+  {
+    "name": "tag",
+    "description": "Tag? meh idk how to describe this",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/tag list",
+      "/tag get tag:string",
+      "/tag create tag:string content:string",
+      "/tag delete tag:string",
+      "/tag edit tag:string content:string",
+      "/tag meta tag:string"
+    ]
+  },
+  {
+    "name": "tinyurl",
+    "description": "Create a tinyurl link or get a link from tinyurl",
+    "cooldown": 10,
+    "category": "utility",
+    "args": [
+      "/tinyurl create url:string [alias:string]",
+      "/tinyurl get url:string"
+    ]
+  },
+  {
+    "name": "translate",
+    "description": "Translate text to another language",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/translate to:string text:string [from:string]"
+    ]
+  },
+  {
+    "name": "uppercase",
+    "description": "Uppercase a text",
+    "cooldown": 3,
+    "category": "utility",
+    "args": [
+      "/uppercase text:string"
     ]
   }
 ]
