@@ -823,16 +823,6 @@
     ]
   },
   {
-    "name": "nhentai",
-    "description": "ok",
-    "cooldown": 15,
-    "category": "nsfw",
-    "args": [
-      "/nhentai read id:number",
-      "/nhentai search query:string"
-    ]
-  },
-  {
     "name": "afk",
     "description": "Set your afk",
     "cooldown": 5,
