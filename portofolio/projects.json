@@ -102,5 +102,29 @@
                 "link": "https://google.com"
             }
         ]
+    },
+    {
+        "name": "Bonymous",
+        "description": "An website to collect responses anonymously with board/threading system.",
+        "public": true,
+        "avatar": "",
+        "links": [
+            {
+                "name": "Repository",
+                "link": "https://github.com/Takiyo0/Bonymous"
+            }
+        ]
+    },
+    {
+        "name": "Chibisafe-mobile",
+        "description": "An mobile client for chibisafe instance.",
+        "public": true,
+        "avatar": "",
+        "links": [
+            {
+                "name": "Repository",
+                "link": "https://github.com/Takiyo0/chibisafe-mobile"
+            }
+        ]
     }
 ]
