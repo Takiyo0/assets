@@ -107,10 +107,10 @@
         "name": "Bonymous",
         "description": "An website to collect responses anonymously with board/threading system.",
         "public": true,
-        "avatar": "",
+        "avatar": "https://i.imgur.com/8xewaqb.png",
         "links": [
             {
-                "name": "Repository",
+                "name": "Github Repo",
                 "link": "https://github.com/Takiyo0/Bonymous"
             }
         ]
@@ -119,10 +119,10 @@
         "name": "Chibisafe-mobile",
         "description": "An mobile client for chibisafe instance.",
         "public": true,
-        "avatar": "",
+        "avatar": "https://i.imgur.com/iV3lP39.jpg",
         "links": [
             {
-                "name": "Repository",
+                "name": "Github Repo",
                 "link": "https://github.com/Takiyo0/chibisafe-mobile"
             }
         ]
