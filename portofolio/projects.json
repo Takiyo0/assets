@@ -24,6 +24,30 @@
         ]
     },
     {
+        "name": "Bonymous",
+        "description": "A website to collect responses anonymously with board/threading system.",
+        "public": true,
+        "avatar": "https://i.imgur.com/8xewaqb.png",
+        "links": [
+            {
+                "name": "Github Repo",
+                "link": "https://github.com/Takiyo0/Bonymous"
+            }
+        ]
+    },
+    {
+        "name": "Chibisafe-mobile",
+        "description": "A mobile client for chibisafe instance.",
+        "public": true,
+        "avatar": "https://i.imgur.com/iV3lP39.jpg",
+        "links": [
+            {
+                "name": "Github Repo",
+                "link": "https://github.com/Takiyo0/chibisafe-mobile"
+            }
+        ]
+    },
+    {
         "name": "Kazagumo",
         "description": "A module that is using shoukaku. Has built-in queue, spotify support, and more that has been more simplified.",
         "public": true,
@@ -51,7 +75,7 @@
         "links": [
             {
                 "name": "API Link",
-                "link": "https://api.chilledchino.live/"
+                "link": "https://api.chilledchino.me/"
             }
         ]
     },
@@ -63,7 +87,7 @@
         "links": [
             {
                 "name": "Blog Link",
-                "link": "https://blog.chilledchino.live/"
+                "link": "https://blog.chilledchino.me/"
             }
         ]
     },
@@ -75,7 +99,7 @@
         "links": [
             {
                 "name": "Player",
-                "link": "https://player.chilledchino.live/"
+                "link": "https://player.chilledchino.me/"
             }
         ]
     },
@@ -104,27 +128,22 @@
         ]
     },
     {
-        "name": "Bonymous",
-        "description": "An website to collect responses anonymously with board/threading system.",
-        "public": true,
-        "avatar": "https://i.imgur.com/8xewaqb.png",
-        "links": [
-            {
-                "name": "Github Repo",
-                "link": "https://github.com/Takiyo0/Bonymous"
-            }
-        ]
-    },
-    {
-        "name": "Chibisafe-mobile",
-        "description": "An mobile client for chibisafe instance.",
+        "name": "url-shortener",
+        "description": "A cool looking (ig) simple url shortener.",
         "public": true,
         "avatar": "https://i.imgur.com/iV3lP39.jpg",
         "links": [
             {
                 "name": "Github Repo",
-                "link": "https://github.com/Takiyo0/chibisafe-mobile"
+                "link": "https://github.com/Takiyo0/url-shortener"
             }
         ]
+    },
+    {
+        "name": "blog-admin-panel",
+        "description": "An admin panel to manage posts. This is personal use only",
+        "public": false,
+        "avatar": "https://i.imgur.com/iV3lP39.jpg",
+        "links": []
     }
 ]
