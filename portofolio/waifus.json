@@ -30,4 +30,20 @@
     "author": "Nekotoufu / Nekotofu / GRINP",
     "type": "manga"
   }
+}, {
+  "name": "Kasugano, Sora",
+  "description": "This is the type of tsundere I like",
+  "image": {
+    "url": "https://i.imgur.com/m7lUDem.jpg",
+    "source": {
+      "name": "screenshot",
+      "url": "https://myanimelist.net/anime/8861/Yosuga_no_Sora__In_Solitude_Where_We_Are_Least_Alone"
+    }
+  },
+  "source": {
+    "name": "Yosuga no Sora: In Solitude, Where We Are Least Alone.",
+    "url": "https://myanimelist.net/anime/8861/Yosuga_no_Sora__In_Solitude_Where_We_Are_Least_Alone",
+    "author": "feel. (s); Mikaze, Takashi (a);",
+    "type": "anime"
+  }
 }]
