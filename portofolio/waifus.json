@@ -1,49 +1,70 @@
-[{
-  "name": "Oyama, Mahiro",
-  "description": "",
-  "image": {
-    "url": "https://i.imgur.com/tYO0n9a.png",
+[
+  {
+    "name": "Oyama, Mahiro",
+    "description": "",
+    "image": {
+      "url": "https://i.imgur.com/tYO0n9a.png",
+      "source": {
+        "name": "@gamerowlcity24",
+        "url": "https://twitter.com/gamerowlcity24/status/1386771831751913478"
+      }
+    },
     "source": {
-      "name": "@gamerowlcity24",
-      "url": "https://twitter.com/gamerowlcity24/status/1386771831751913478"
+      "name": "Oniichan wa Oshimai!",
+      "url": "https://myanimelist.net/manga/112592/Oniichan_wa_Oshimai",
+      "author": "Nekotoufu / Nekotofu / GRINP",
+      "type": "manga"
     }
   },
-  "source": {
-    "name": "Oniichan wa Oshimai!",
-    "url": "https://myanimelist.net/manga/112592/Oniichan_wa_Oshimai",
-    "author": "Nekotoufu / Nekotofu / GRINP",
-    "type": "manga"
-  }
-}, {
-  "name": "Oyama, Mihari",
-  "description": "",
-  "image": {
-    "url": "https://i.imgur.com/PH4c5wk.jpg",
+  {
+    "name": "Oyama, Mihari",
+    "description": "",
+    "image": {
+      "url": "https://i.imgur.com/PH4c5wk.jpg",
+      "source": {
+        "name": "anime-planet.com",
+        "url": "https://www.anime-planet.com/characters/mihari-oyama"
+      }
+    },
     "source": {
-      "name": "anime-planet.com",
-      "url": "https://www.anime-planet.com/characters/mihari-oyama"
+      "name": "Oniichan wa Oshimai!",
+      "url": "https://myanimelist.net/manga/112592/Oniichan_wa_Oshimai",
+      "author": "Nekotoufu / Nekotofu / GRINP",
+      "type": "manga"
     }
   },
-  "source": {
-    "name": "Oniichan wa Oshimai!",
-    "url": "https://myanimelist.net/manga/112592/Oniichan_wa_Oshimai",
-    "author": "Nekotoufu / Nekotofu / GRINP",
-    "type": "manga"
-  }
-}, {
-  "name": "Kasugano, Sora",
-  "description": "This is the type of tsundere I like",
-  "image": {
-    "url": "https://i.imgur.com/m7lUDem.jpg",
+  {
+    "name": "Yaya",
+    "description": "Cute, ikr",
+    "image": {
+      "url": "https://i.imgur.com/nVV1Nom.png",
+      "source": {
+        "name": "screenshot",
+        "url": "https://myanimelist.net/anime/17247/Machine-Doll_wa_Kizutsukanai"
+      }
+    },
     "source": {
-      "name": "screenshot",
-      "url": "https://myanimelist.net/anime/8861/Yosuga_no_Sora__In_Solitude_Where_We_Are_Least_Alone"
+      "name": "Machine-Doll wa Kizutsukanai",
+      "url": "https://myanimelist.net/anime/17247/Machine-Doll_wa_Kizutsukanai",
+      "author": "Funimation (s); Reiji Kaitō (a);",
+      "type": "anime"
     }
   },
-  "source": {
-    "name": "Yosuga no Sora: In Solitude, Where We Are Least Alone.",
-    "url": "https://myanimelist.net/anime/8861/Yosuga_no_Sora__In_Solitude_Where_We_Are_Least_Alone",
-    "author": "feel. (s); Mikaze, Takashi (a);",
-    "type": "anime"
+  {
+    "name": "Kisara",
+    "description": "Cute++",
+    "image": {
+      "url": "https://i.imgur.com/RqLv8Kc.jpg",
+      "source": {
+        "name": "@engage_kiss",
+        "url": "https://twitter.com/engage_kiss/status/1538084110962417665"
+      }
+    },
+    "source": {
+      "name": "Engage Kiss",
+      "url": "https://myanimelist.net/anime/51417/Engage_Kiss",
+      "author": "A-1 Pictures (s); original",
+      "type": "anime"
+    }
   }
-}]
+]

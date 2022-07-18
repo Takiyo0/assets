@@ -24,6 +24,18 @@
         ]
     },
     {
+        "name": "Amagi",
+        "description": "A module that handles lavalink searches. Has built-in rate limit handler and built for massive search.",
+        "public": true,
+        "avatar": "https://camo.githubusercontent.com/8b1e5871cfca0cc42209abd873733bbd1298955031c96ef2229c9b24275fd203/68747470733a2f2f692e696d6775722e636f6d2f345a65665a70552e706e67",
+        "links": [
+            {
+                "name": "Github Repo",
+                "link": "https://github.com/Weeb-Devs/Laffey"
+            }
+        ]
+    },
+    {
         "name": "Bonymous",
         "description": "A website to collect responses anonymously with board/threading system.",
         "public": true,
